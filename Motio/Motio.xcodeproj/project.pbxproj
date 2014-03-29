@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D8CE9E18E75079007A9668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CE9D18E75079007A9668 /* Foundation.framework */; };
+		56D8CEA018E75079007A9668 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CE9F18E75079007A9668 /* CoreGraphics.framework */; };
+		56D8CEA218E75079007A9668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CEA118E75079007A9668 /* UIKit.framework */; };
+		56D8CEA818E75079007A9668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D8CEA618E75079007A9668 /* InfoPlist.strings */; };
+		56D8CEAA18E75079007A9668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8CEA918E75079007A9668 /* main.m */; };
+		56D8CEAE18E75079007A9668 /* MOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8CEAD18E75079007A9668 /* MOAppDelegate.m */; };
+		56D8CEB118E7507A007A9668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D8CEAF18E7507A007A9668 /* Main.storyboard */; };
+		56D8CEB418E7507A007A9668 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8CEB318E7507A007A9668 /* MOViewController.m */; };
+		56D8CEB618E7507A007A9668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D8CEB518E7507A007A9668 /* Images.xcassets */; };
+		56D8CEBD18E7507A007A9668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CEBC18E7507A007A9668 /* XCTest.framework */; };
+		56D8CEBE18E7507A007A9668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CE9D18E75079007A9668 /* Foundation.framework */; };
+		56D8CEBF18E7507A007A9668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CEA118E75079007A9668 /* UIKit.framework */; };
+		56D8CEC718E7507A007A9668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D8CEC518E7507A007A9668 /* InfoPlist.strings */; };
+		56D8CEC918E7507A007A9668 /* MotioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8CEC818E7507A007A9668 /* MotioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D8CEC018E7507A007A9668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D8CE9218E75079007A9668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D8CE9918E75079007A9668;
+			remoteInfo = Motio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56D8CE9A18E75079007A9668 /* Motio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D8CE9D18E75079007A9668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56D8CE9F18E75079007A9668 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56D8CEA118E75079007A9668 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56D8CEA518E75079007A9668 /* Motio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Motio-Info.plist"; sourceTree = "<group>"; };
+		56D8CEA718E75079007A9668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D8CEA918E75079007A9668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56D8CEAB18E75079007A9668 /* Motio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Motio-Prefix.pch"; sourceTree = "<group>"; };
+		56D8CEAC18E75079007A9668 /* MOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOAppDelegate.h; sourceTree = "<group>"; };
+		56D8CEAD18E75079007A9668 /* MOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOAppDelegate.m; sourceTree = "<group>"; };
+		56D8CEB018E7507A007A9668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56D8CEB218E7507A007A9668 /* MOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOViewController.h; sourceTree = "<group>"; };
+		56D8CEB318E7507A007A9668 /* MOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
+		56D8CEB518E7507A007A9668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56D8CEBB18E7507A007A9668 /* MotioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D8CEBC18E7507A007A9668 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56D8CEC418E7507A007A9668 /* MotioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotioTests-Info.plist"; sourceTree = "<group>"; };
+		56D8CEC618E7507A007A9668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D8CEC818E7507A007A9668 /* MotioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D8CE9718E75079007A9668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8CEA018E75079007A9668 /* CoreGraphics.framework in Frameworks */,
+				56D8CEA218E75079007A9668 /* UIKit.framework in Frameworks */,
+				56D8CE9E18E75079007A9668 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8CEB818E7507A007A9668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8CEBD18E7507A007A9668 /* XCTest.framework in Frameworks */,
+				56D8CEBF18E7507A007A9668 /* UIKit.framework in Frameworks */,
+				56D8CEBE18E7507A007A9668 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56D8CE9118E75079007A9668 = {
+			isa = PBXGroup;
+			children = (
+				56D8CEA318E75079007A9668 /* Motio */,
+				56D8CEC218E7507A007A9668 /* MotioTests */,
+				56D8CE9C18E75079007A9668 /* Frameworks */,
+				56D8CE9B18E75079007A9668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56D8CE9B18E75079007A9668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D8CE9A18E75079007A9668 /* Motio.app */,
+				56D8CEBB18E7507A007A9668 /* MotioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D8CE9C18E75079007A9668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56D8CE9D18E75079007A9668 /* Foundation.framework */,
+				56D8CE9F18E75079007A9668 /* CoreGraphics.framework */,
+				56D8CEA118E75079007A9668 /* UIKit.framework */,
+				56D8CEBC18E7507A007A9668 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D8CEA318E75079007A9668 /* Motio */ = {
+			isa = PBXGroup;
+			children = (
+				56D8CEAC18E75079007A9668 /* MOAppDelegate.h */,
+				56D8CEAD18E75079007A9668 /* MOAppDelegate.m */,
+				56D8CEAF18E7507A007A9668 /* Main.storyboard */,
+				56D8CEB218E7507A007A9668 /* MOViewController.h */,
+				56D8CEB318E7507A007A9668 /* MOViewController.m */,
+				56D8CEB518E7507A007A9668 /* Images.xcassets */,
+				56D8CEA418E75079007A9668 /* Supporting Files */,
+			);
+			path = Motio;
+			sourceTree = "<group>";
+		};
+		56D8CEA418E75079007A9668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D8CEA518E75079007A9668 /* Motio-Info.plist */,
+				56D8CEA618E75079007A9668 /* InfoPlist.strings */,
+				56D8CEA918E75079007A9668 /* main.m */,
+				56D8CEAB18E75079007A9668 /* Motio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56D8CEC218E7507A007A9668 /* MotioTests */ = {
+			isa = PBXGroup;
+			children = (
+				56D8CEC818E7507A007A9668 /* MotioTests.m */,
+				56D8CEC318E7507A007A9668 /* Supporting Files */,
+			);
+			path = MotioTests;
+			sourceTree = "<group>";
+		};
+		56D8CEC318E7507A007A9668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D8CEC418E7507A007A9668 /* MotioTests-Info.plist */,
+				56D8CEC518E7507A007A9668 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D8CE9918E75079007A9668 /* Motio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D8CECC18E7507A007A9668 /* Build configuration list for PBXNativeTarget "Motio" */;
+			buildPhases = (
+				56D8CE9618E75079007A9668 /* Sources */,
+				56D8CE9718E75079007A9668 /* Frameworks */,
+				56D8CE9818E75079007A9668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motio;
+			productName = Motio;
+			productReference = 56D8CE9A18E75079007A9668 /* Motio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56D8CEBA18E7507A007A9668 /* MotioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D8CECF18E7507A007A9668 /* Build configuration list for PBXNativeTarget "MotioTests" */;
+			buildPhases = (
+				56D8CEB718E7507A007A9668 /* Sources */,
+				56D8CEB818E7507A007A9668 /* Frameworks */,
+				56D8CEB918E7507A007A9668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D8CEC118E7507A007A9668 /* PBXTargetDependency */,
+			);
+			name = MotioTests;
+			productName = MotioTests;
+			productReference = 56D8CEBB18E7507A007A9668 /* MotioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D8CE9218E75079007A9668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Motio;
+				TargetAttributes = {
+					56D8CEBA18E7507A007A9668 = {
+						TestTargetID = 56D8CE9918E75079007A9668;
+					};
+				};
+			};
+			buildConfigurationList = 56D8CE9518E75079007A9668 /* Build configuration list for PBXProject "Motio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D8CE9118E75079007A9668;
+			productRefGroup = 56D8CE9B18E75079007A9668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D8CE9918E75079007A9668 /* Motio */,
+				56D8CEBA18E7507A007A9668 /* MotioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D8CE9818E75079007A9668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8CEB618E7507A007A9668 /* Images.xcassets in Resources */,
+				56D8CEA818E75079007A9668 /* InfoPlist.strings in Resources */,
+				56D8CEB118E7507A007A9668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8CEB918E7507A007A9668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8CEC718E7507A007A9668 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D8CE9618E75079007A9668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8CEAE18E75079007A9668 /* MOAppDelegate.m in Sources */,
+				56D8CEB418E7507A007A9668 /* MOViewController.m in Sources */,
+				56D8CEAA18E75079007A9668 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8CEB718E7507A007A9668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8CEC918E7507A007A9668 /* MotioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56D8CEC118E7507A007A9668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D8CE9918E75079007A9668 /* Motio */;
+			targetProxy = 56D8CEC018E7507A007A9668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56D8CEA618E75079007A9668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D8CEA718E75079007A9668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56D8CEAF18E7507A007A9668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D8CEB018E7507A007A9668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56D8CEC518E7507A007A9668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D8CEC618E7507A007A9668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D8CECA18E7507A007A9668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56D8CECB18E7507A007A9668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D8CECD18E7507A007A9668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Motio/Motio-Prefix.pch";
+				INFOPLIST_FILE = "Motio/Motio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56D8CECE18E7507A007A9668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Motio/Motio-Prefix.pch";
+				INFOPLIST_FILE = "Motio/Motio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56D8CED018E7507A007A9668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Motio.app/Motio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Motio/Motio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MotioTests/MotioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56D8CED118E7507A007A9668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Motio.app/Motio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Motio/Motio-Prefix.pch";
+				INFOPLIST_FILE = "MotioTests/MotioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D8CE9518E75079007A9668 /* Build configuration list for PBXProject "Motio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8CECA18E7507A007A9668 /* Debug */,
+				56D8CECB18E7507A007A9668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D8CECC18E7507A007A9668 /* Build configuration list for PBXNativeTarget "Motio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8CECD18E7507A007A9668 /* Debug */,
+				56D8CECE18E7507A007A9668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56D8CECF18E7507A007A9668 /* Build configuration list for PBXNativeTarget "MotioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8CED018E7507A007A9668 /* Debug */,
+				56D8CED118E7507A007A9668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D8CE9218E75079007A9668 /* Project object */;
+}
