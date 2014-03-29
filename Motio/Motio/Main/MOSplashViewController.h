@@ -1,5 +1,5 @@
 //
-//  MOViewController.h
+//  MOSplashViewController.h
 //  Motio
 //
 //  Created by Paul Ballesty on 3/29/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MOViewController : UIViewController
+@interface MOSplashViewController : UIViewController
 
 @end
