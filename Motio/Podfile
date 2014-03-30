@@ -1,6 +1,7 @@
 platform :ios, "7.0"
 
-pod 'CocoaLumberjack', '1.8.1'
+pod 'CocoaLumberjack', '~> 1.8'
+pod 'ReactiveCocoa', '~> 2.3'
 
 target "MotioTests" do
 	pod 'Kiwi/XCTest', '2.2.4'

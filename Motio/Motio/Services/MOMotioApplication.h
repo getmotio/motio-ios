@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class MONotificationCenter, MOAuthenticationService;
 @interface MOMotioApplication : NSObject
 
 + (instancetype)application;
 
 - (void)initialize;
 
+- (MOAuthenticationService *)authenticationService;
+- (MONotificationCenter *)notificationCenter;
 @end

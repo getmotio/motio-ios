@@ -7,31 +7,37 @@
 //
 
 #import "MOSplashViewController.h"
-
-@interface MOSplashViewController ()
-
-@end
+#import "NSObject+Services.h"
+#import "NSObject+ReactiveCocoa.h"
+#import "UIViewController+Utilities.h"
+#import "MONotificationCenter.h"
+#import "MOAuthenticationService.h"
 
 @implementation MOSplashViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self registerForAuthenticationNotifications];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated {
+    if (![[self authenticationService] isCurrentUserSignedIn]) {
+        [[self motioNotificationCenter] postNotification:MONotificationNoSession withParams:nil];
+    }
+}
+
+- (IBAction)singin:(id)sender {
+    [self presentStoryboard:@"Authentication"];
+}
+
+- (void)registerForAuthenticationNotifications {
+    RACSignal *noSessionSignal = [[self motioNotificationCenter] registerForNotification:MONotificationNoSession];
+    @weakify(self);
+    [noSessionSignal subscribeNext:^(id x) {
+        @strongify(self);
+        [self presentStoryboard:@"Authentication"];
+    }];
 }
 
 @end

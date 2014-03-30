@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564743DB18E78FEC000413B4 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564743DA18E78FEC000413B4 /* Authentication.storyboard */; };
+		567EF64618E7942C00E95560 /* MOAuthenticationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64518E7942C00E95560 /* MOAuthenticationService.m */; };
+		567EF64A18E7945C00E95560 /* MOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64918E7945C00E95560 /* MOUser.m */; };
+		567EF64D18E7A25C00E95560 /* NSObject+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64C18E7A25C00E95560 /* NSObject+ReactiveCocoa.m */; };
+		567EF65018E7A6A200E95560 /* MOSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64F18E7A6A200E95560 /* MOSignInViewController.m */; };
+		567EF65618E7BB1300E95560 /* UIViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF65518E7BB1300E95560 /* UIViewController+Utilities.m */; };
+		567EF65918E7CA1D00E95560 /* MONotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF65818E7CA1D00E95560 /* MONotificationCenter.m */; };
 		56D8CE9E18E75079007A9668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CE9D18E75079007A9668 /* Foundation.framework */; };
 		56D8CEA018E75079007A9668 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CE9F18E75079007A9668 /* CoreGraphics.framework */; };
 		56D8CEA218E75079007A9668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8CEA118E75079007A9668 /* UIKit.framework */; };
@@ -39,6 +46,19 @@
 
 /* Begin PBXFileReference section */
 		19539293C6224C94B08ABA51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		564743DA18E78FEC000413B4 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		567EF64418E7942C00E95560 /* MOAuthenticationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAuthenticationService.h; sourceTree = "<group>"; };
+		567EF64518E7942C00E95560 /* MOAuthenticationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOAuthenticationService.m; sourceTree = "<group>"; };
+		567EF64818E7945C00E95560 /* MOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOUser.h; sourceTree = "<group>"; };
+		567EF64918E7945C00E95560 /* MOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOUser.m; sourceTree = "<group>"; };
+		567EF64B18E7A25C00E95560 /* NSObject+ReactiveCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ReactiveCocoa.h"; sourceTree = "<group>"; };
+		567EF64C18E7A25C00E95560 /* NSObject+ReactiveCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ReactiveCocoa.m"; sourceTree = "<group>"; };
+		567EF64E18E7A6A200E95560 /* MOSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSignInViewController.h; sourceTree = "<group>"; };
+		567EF64F18E7A6A200E95560 /* MOSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSignInViewController.m; sourceTree = "<group>"; };
+		567EF65418E7BB1300E95560 /* UIViewController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utilities.h"; sourceTree = "<group>"; };
+		567EF65518E7BB1300E95560 /* UIViewController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utilities.m"; sourceTree = "<group>"; };
+		567EF65718E7CA1D00E95560 /* MONotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONotificationCenter.h; sourceTree = "<group>"; };
+		567EF65818E7CA1D00E95560 /* MONotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONotificationCenter.m; sourceTree = "<group>"; };
 		56D8CE9A18E75079007A9668 /* Motio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D8CE9D18E75079007A9668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56D8CE9F18E75079007A9668 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564743D918E78FAB000413B4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				564743DA18E78FEC000413B4 /* Authentication.storyboard */,
+				567EF64E18E7A6A200E95560 /* MOSignInViewController.h */,
+				567EF64F18E7A6A200E95560 /* MOSignInViewController.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		567EF64718E7943700E95560 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				567EF64818E7945C00E95560 /* MOUser.h */,
+				567EF64918E7945C00E95560 /* MOUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		56D8CE9118E75079007A9668 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +169,8 @@
 		56D8CEA318E75079007A9668 /* Motio */ = {
 			isa = PBXGroup;
 			children = (
+				567EF64718E7943700E95560 /* Models */,
+				564743D918E78FAB000413B4 /* Authentication */,
 				56D8CEDB18E7667C007A9668 /* Services */,
 				56D8CED218E763AF007A9668 /* Main */,
 				56D8CEAC18E75079007A9668 /* MOAppDelegate.h */,
@@ -185,6 +226,10 @@
 				56D8CEDF18E76AE5007A9668 /* Categories */,
 				56D8CEDC18E766A9007A9668 /* MOMotioApplication.h */,
 				56D8CEDD18E766A9007A9668 /* MOMotioApplication.m */,
+				567EF64418E7942C00E95560 /* MOAuthenticationService.h */,
+				567EF64518E7942C00E95560 /* MOAuthenticationService.m */,
+				567EF65718E7CA1D00E95560 /* MONotificationCenter.h */,
+				567EF65818E7CA1D00E95560 /* MONotificationCenter.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -194,6 +239,10 @@
 			children = (
 				56D8CEE018E76B1A007A9668 /* NSObject+Services.h */,
 				56D8CEE118E76B1A007A9668 /* NSObject+Services.m */,
+				567EF64B18E7A25C00E95560 /* NSObject+ReactiveCocoa.h */,
+				567EF64C18E7A25C00E95560 /* NSObject+ReactiveCocoa.m */,
+				567EF65418E7BB1300E95560 /* UIViewController+Utilities.h */,
+				567EF65518E7BB1300E95560 /* UIViewController+Utilities.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -279,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564743DB18E78FEC000413B4 /* Authentication.storyboard in Resources */,
 				56D8CED418E76534007A9668 /* Main.storyboard in Resources */,
 				56D8CEB618E7507A007A9668 /* Images.xcassets in Resources */,
 				56D8CEA818E75079007A9668 /* InfoPlist.strings in Resources */,
@@ -366,8 +416,14 @@
 				56D8CEAE18E75079007A9668 /* MOAppDelegate.m in Sources */,
 				56D8CEAA18E75079007A9668 /* main.m in Sources */,
 				56D8CEDA18E765BC007A9668 /* MOSplashViewController.m in Sources */,
+				567EF64A18E7945C00E95560 /* MOUser.m in Sources */,
+				567EF65918E7CA1D00E95560 /* MONotificationCenter.m in Sources */,
 				56D8CEE218E76B1A007A9668 /* NSObject+Services.m in Sources */,
 				56D8CEDE18E766A9007A9668 /* MOMotioApplication.m in Sources */,
+				567EF64D18E7A25C00E95560 /* NSObject+ReactiveCocoa.m in Sources */,
+				567EF65018E7A6A200E95560 /* MOSignInViewController.m in Sources */,
+				567EF64618E7942C00E95560 /* MOAuthenticationService.m in Sources */,
+				567EF65618E7BB1300E95560 /* UIViewController+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

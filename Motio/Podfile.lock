@@ -9,13 +9,21 @@ PODS:
   - Kiwi/XCTest (2.2.4):
     - Kiwi/ARC
     - Kiwi/NonARC
+  - ReactiveCocoa (2.3):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/Core (2.3):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3)
 
 DEPENDENCIES:
-  - CocoaLumberjack (= 1.8.1)
+  - CocoaLumberjack (~> 1.8)
   - Kiwi/XCTest (= 2.2.4)
+  - ReactiveCocoa (~> 2.3)
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   Kiwi: d60d7498b640a16f58b01925fc3c8d7c4d809f66
+  ReactiveCocoa: 1f6265f9d521923d3efcc37b00722cefc16df269
 
 COCOAPODS: 0.29.0

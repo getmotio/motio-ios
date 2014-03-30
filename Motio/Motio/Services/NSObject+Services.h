@@ -9,8 +9,11 @@
 #import "MOMotioApplication.h"
 #import <Foundation/Foundation.h>
 
+@class MONotificationCenter, MOAuthenticationService;
 @interface NSObject (Services)
 
 - (MOMotioApplication *)motioApplication;
+- (MONotificationCenter *)motioNotificationCenter;
+- (MOAuthenticationService *)authenticationService;
 
 @end

@@ -7,8 +7,15 @@
 //
 
 #import "MOMotioApplication.h"
+#import "MONotificationCenter.h"
+#import "MOAuthenticationService.h"
 #import <CocoaLumberjack/DDASLLogger.h>
 #import <CocoaLumberjack/DDTTYLogger.h>
+
+@interface MOMotioApplication()
+@property (strong, nonatomic) MONotificationCenter *notificationCenter;
+@property (strong, nonatomic) MOAuthenticationService *authenticationService;
+@end
 
 @implementation MOMotioApplication
 
@@ -23,6 +30,8 @@
 
 - (void)initialize {
     [self initializeCocoaLumberjack];
+    self.notificationCenter = [[MONotificationCenter alloc] init];
+    self.authenticationService = [[MOAuthenticationService alloc] init];
 }
 
 - (void)initializeCocoaLumberjack {

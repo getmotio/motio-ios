@@ -7,11 +7,20 @@
 //
 
 #import "NSObject+Services.h"
+#import "MONotificationCenter.h"
 
 @implementation NSObject (Services)
 
 - (MOMotioApplication *)motioApplication {
     return [MOMotioApplication application];
+}
+
+- (MONotificationCenter *)motioNotificationCenter {
+    return [[self motioApplication] notificationCenter];
+}
+
+- (MOAuthenticationService *)authenticationService {
+    return [[self motioApplication] authenticationService];
 }
 
 @end
