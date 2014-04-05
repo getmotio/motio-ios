@@ -7,7 +7,6 @@
         <!--Splash View Controller-->
         <scene sceneID="6AE-Mf-EIH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rxS-MU-SMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="MDS-Cv-Pob" customClass="MOSplashViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uvf-Z7-Uwz"/>
@@ -16,26 +15,11 @@
                     <view key="view" contentMode="scaleToFill" id="DYr-2C-RUi">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfE-w0-CJh">
-                                <rect key="frame" x="137" y="193" width="47" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign in">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="singin:" destination="MDS-Cv-Pob" eventType="touchUpInside" id="N6c-uc-BQF"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="WfE-w0-CJh" secondAttribute="centerX" constant="-0.5" id="Mik-YR-UZy"/>
-                            <constraint firstAttribute="centerY" secondItem="WfE-w0-CJh" secondAttribute="centerY" id="t6P-2G-mTj"/>
-                        </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rxS-MU-SMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="211" y="7"/>
         </scene>

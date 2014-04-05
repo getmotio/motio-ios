@@ -27,10 +27,6 @@
     }
 }
 
-- (IBAction)singin:(id)sender {
-    [self presentStoryboard:@"Authentication"];
-}
-
 - (void)registerForAuthenticationNotifications {
     RACSignal *noSessionSignal = [[self motioNotificationCenter] registerForNotification:MONotificationNoSession];
     @weakify(self);
