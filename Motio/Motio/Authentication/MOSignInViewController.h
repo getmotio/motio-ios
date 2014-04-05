@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MOSignInViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @end

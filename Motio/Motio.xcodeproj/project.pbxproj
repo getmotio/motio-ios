@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		564743DB18E78FEC000413B4 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564743DA18E78FEC000413B4 /* Authentication.storyboard */; };
+		567AC80218F0C0F2008068DB /* UIColor+MotioPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 567AC80118F0C0F2008068DB /* UIColor+MotioPalette.m */; };
 		567EF64618E7942C00E95560 /* MOAuthenticationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64518E7942C00E95560 /* MOAuthenticationService.m */; };
 		567EF64A18E7945C00E95560 /* MOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64918E7945C00E95560 /* MOUser.m */; };
 		567EF64D18E7A25C00E95560 /* NSObject+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64C18E7A25C00E95560 /* NSObject+ReactiveCocoa.m */; };
@@ -47,6 +48,8 @@
 /* Begin PBXFileReference section */
 		19539293C6224C94B08ABA51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		564743DA18E78FEC000413B4 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		567AC80018F0C0F2008068DB /* UIColor+MotioPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MotioPalette.h"; sourceTree = "<group>"; };
+		567AC80118F0C0F2008068DB /* UIColor+MotioPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MotioPalette.m"; sourceTree = "<group>"; };
 		567EF64418E7942C00E95560 /* MOAuthenticationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAuthenticationService.h; sourceTree = "<group>"; };
 		567EF64518E7942C00E95560 /* MOAuthenticationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOAuthenticationService.m; sourceTree = "<group>"; };
 		567EF64818E7945C00E95560 /* MOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOUser.h; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 				567EF64C18E7A25C00E95560 /* NSObject+ReactiveCocoa.m */,
 				567EF65418E7BB1300E95560 /* UIViewController+Utilities.h */,
 				567EF65518E7BB1300E95560 /* UIViewController+Utilities.m */,
+				567AC80018F0C0F2008068DB /* UIColor+MotioPalette.h */,
+				567AC80118F0C0F2008068DB /* UIColor+MotioPalette.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				56D8CEAA18E75079007A9668 /* main.m in Sources */,
 				56D8CEDA18E765BC007A9668 /* MOSplashViewController.m in Sources */,
 				567EF64A18E7945C00E95560 /* MOUser.m in Sources */,
+				567AC80218F0C0F2008068DB /* UIColor+MotioPalette.m in Sources */,
 				567EF65918E7CA1D00E95560 /* MONotificationCenter.m in Sources */,
 				56D8CEE218E76B1A007A9668 /* NSObject+Services.m in Sources */,
 				56D8CEDE18E766A9007A9668 /* MOMotioApplication.m in Sources */,
