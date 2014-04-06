@@ -87,14 +87,28 @@
                                             <constraint firstItem="Jqt-Di-Ozp" firstAttribute="top" secondItem="aol-0L-HcY" secondAttribute="bottom" constant="20" id="y1k-N3-8dZ"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEC-S9-MkB">
+                                        <rect key="frame" x="20" y="415" width="280" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="MBz-LT-lcF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Sign in" backgroundImage="btn-primary">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="c87-Uq-MdF" secondAttribute="centerX" id="3yy-hC-WIK"/>
                                     <constraint firstItem="c87-Uq-MdF" firstAttribute="leading" secondItem="GLj-W2-Mwt" secondAttribute="leading" id="Dxx-7O-wDJ"/>
                                     <constraint firstAttribute="centerY" secondItem="c87-Uq-MdF" secondAttribute="centerY" id="ZMc-P2-mne"/>
+                                    <constraint firstItem="aEC-S9-MkB" firstAttribute="leading" secondItem="GLj-W2-Mwt" secondAttribute="leading" constant="20" symbolic="YES" id="b3B-o2-Xwu"/>
+                                    <constraint firstAttribute="trailing" secondItem="aEC-S9-MkB" secondAttribute="trailing" constant="20" symbolic="YES" id="c07-CH-9tG"/>
                                     <constraint firstAttribute="trailing" secondItem="c87-Uq-MdF" secondAttribute="trailing" id="doG-h8-npe"/>
                                     <constraint firstAttribute="bottom" secondItem="c87-Uq-MdF" secondAttribute="bottom" id="onl-mc-aYs"/>
                                     <constraint firstItem="c87-Uq-MdF" firstAttribute="top" secondItem="GLj-W2-Mwt" secondAttribute="top" id="sdN-yG-54F"/>
+                                    <constraint firstAttribute="bottom" secondItem="aEC-S9-MkB" secondAttribute="bottom" constant="20" symbolic="YES" id="suM-9C-Tsg"/>
                                     <constraint firstItem="c87-Uq-MdF" firstAttribute="top" secondItem="GLj-W2-Mwt" secondAttribute="top" id="w0g-pm-LNx"/>
                                 </constraints>
                             </scrollView>
@@ -143,6 +157,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="btn-primary" width="46" height="46"/>
         <image name="motio-logo-big" width="115" height="115"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
