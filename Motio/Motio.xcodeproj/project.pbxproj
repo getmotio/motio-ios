@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5607D1C618F9EE4800FA2DD2 /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5607D1C518F9EE4800FA2DD2 /* Timeline.storyboard */; };
 		564743DB18E78FEC000413B4 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564743DA18E78FEC000413B4 /* Authentication.storyboard */; };
 		567AC80218F0C0F2008068DB /* UIColor+MotioPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 567AC80118F0C0F2008068DB /* UIColor+MotioPalette.m */; };
 		567EF64618E7942C00E95560 /* MOAuthenticationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EF64518E7942C00E95560 /* MOAuthenticationService.m */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		19539293C6224C94B08ABA51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5607D1C518F9EE4800FA2DD2 /* Timeline.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timeline.storyboard; sourceTree = "<group>"; };
 		564743DA18E78FEC000413B4 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		567AC80018F0C0F2008068DB /* UIColor+MotioPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MotioPalette.h"; sourceTree = "<group>"; };
 		567AC80118F0C0F2008068DB /* UIColor+MotioPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MotioPalette.m"; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5607D1C418F9EE1A00FA2DD2 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				5607D1C518F9EE4800FA2DD2 /* Timeline.storyboard */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
 		564743D918E78FAB000413B4 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +182,7 @@
 		56D8CEA318E75079007A9668 /* Motio */ = {
 			isa = PBXGroup;
 			children = (
+				5607D1C418F9EE1A00FA2DD2 /* Timeline */,
 				567EF64718E7943700E95560 /* Models */,
 				564743D918E78FAB000413B4 /* Authentication */,
 				56D8CEDB18E7667C007A9668 /* Services */,
@@ -335,6 +346,7 @@
 			files = (
 				564743DB18E78FEC000413B4 /* Authentication.storyboard in Resources */,
 				56D8CED418E76534007A9668 /* Main.storyboard in Resources */,
+				5607D1C618F9EE4800FA2DD2 /* Timeline.storyboard in Resources */,
 				56D8CEB618E7507A007A9668 /* Images.xcassets in Resources */,
 				56D8CEA818E75079007A9668 /* InfoPlist.strings in Resources */,
 			);

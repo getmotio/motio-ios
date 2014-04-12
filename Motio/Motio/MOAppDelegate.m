@@ -8,12 +8,14 @@
 
 #import "MOAppDelegate.h"
 #import "NSObject+Services.h"
+#import "UIColor+MotioPalette.h"
 
 @implementation MOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     MOMotioApplication *motioApplication = [self motioApplication];
+    self.window.tintColor = [UIColor motioDefaultTintColor];
     [motioApplication initialize];
     return YES;
 }

@@ -12,5 +12,7 @@
 
 + (UIColor *)motioTextFieldColor;
 + (UIColor *)motioTextFieldPlaceholderColor;
++ (UIColor *)motioDefaultTintColor;
++ (UIColor *)motioBackgroundColor;
 
 @end

@@ -13,7 +13,7 @@
 @interface MOAuthenticationService : NSObject
 //- (MOUser *)currentUser;
 - (BOOL)isCurrentUserSignedIn;
-//- (RACSignal *)signIn:(MOUser *)user;
+- (RACSignal *)signIn:(MOUser *)user;
 //- (RACSignal *)signUp:(MOUser *)user;
 //- (RACSignal *)signOut;
 @end

@@ -9,6 +9,7 @@ PODS:
   - Kiwi/XCTest (2.2.4):
     - Kiwi/ARC
     - Kiwi/NonARC
+  - MBProgressHUD (0.8)
   - ReactiveCocoa (2.3):
     - ReactiveCocoa/Core
     - ReactiveCocoa/no-arc
@@ -19,11 +20,13 @@ PODS:
 DEPENDENCIES:
   - CocoaLumberjack (~> 1.8)
   - Kiwi/XCTest (= 2.2.4)
+  - MBProgressHUD (~> 0.8)
   - ReactiveCocoa (~> 2.3)
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   Kiwi: d60d7498b640a16f58b01925fc3c8d7c4d809f66
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
   ReactiveCocoa: 1f6265f9d521923d3efcc37b00722cefc16df269
 
 COCOAPODS: 0.29.0
